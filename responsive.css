@@ -1,0 +1,35 @@
+@media screen and (min-width: 993px){
+    .container{
+        width: 1050px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .main-content{
+        padding: 15px;
+    }
+    .main-content h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .main-content p{
+        width: unset;
+    }
+    .mt-160{
+        margin-top: 50px;
+    }
+    .userCover{
+        flex-flow: column;
+    }
+    .starsss{
+        width: 100%;
+        align-items: start;
+    }
+    .starsss p{
+        width: unset;
+    }
+    .sale-box{
+        margin-bottom: 30px;
+    }
+}
